@@ -19,7 +19,7 @@ CookieConsent.run({
         necessary: {
             readOnly: true
         },
-        analytics: {},
+        // analytics: {}, uncomment if using analytics
         marketing: {}
     },
     language: {
@@ -51,11 +51,11 @@ CookieConsent.run({
                             description: "These cookies are essential for the website to function properly. They ensure basic functionalities and security features of the site, such as enabling navigation and access to secure areas.",
                             linkedCategory: "necessary"
                         },
-                        {
-                            title: "Analytics Cookies",
-                            description: "These cookies collect information to help us understand how visitors interact with our website. They are used to analyze and improve our services.",
-                            linkedCategory: "analytics"
-                        },
+                        // {
+                        //     title: "Analytics Cookies",
+                        //     description: "These cookies collect information to help us understand how visitors interact with our website. They are used to analyze and improve our services.",
+                        //     linkedCategory: "analytics"
+                        // },
                         {
                             title: "Marketing Cookies",
                             description: "These cookies are used to personalize and deliver ads and marketing content based on your interests and browsing habits. Disabling these cookies will still deliver marketing content, but they will no longer be tailored for you.",
